@@ -1,0 +1,97 @@
+/* === Reset básico === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Estilo geral === */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1b2a; /* Fundo escuro */
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* === Foto de perfil === */
+img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0077ff;
+  box-shadow: 0px 0px 15px rgba(0, 119, 255, 0.5);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* === Títulos === */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  color: #1e90ff;
+  margin-bottom: 15px;
+}
+
+/* === Texto descritivo === */
+p {
+  font-size: 16px;
+  color: #dcdcdc;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  line-height: 1.6;
+}
+
+/* === Links === */
+a {
+  display: inline-block;
+  background-color: #14213d;
+  color: #fff;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0px 0px 12px rgba(0, 119, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #0077ff;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 18px rgba(0, 119, 255, 0.7);
+}
+
+/* === Responsividade === */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 14px;
+  }
+}
