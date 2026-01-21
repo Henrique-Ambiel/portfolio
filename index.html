@@ -1,51 +1,140 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="Favicon.png">
-    <title>Henrique Ambiel</title>
-  </head>
-  <body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/Favicon.png">
+
+  <title>Meu Portfólio</title>
+  <meta name="description" content="Portfólio profissional com projetos, cursos e experiências">
+</head>
+
+<body>
+
+  <header id="hero" class="hero">
+  <div class="hero-content">
     <h1>Henrique Begiato Ambiel</h1>
+    <p>Game Designer | Desenvolvedor Web | Técnico em Mecatrônica</p>
 
-    <h2>Game Designer | Desenvolvedor Web | Técnico em Mecatrônica</h2>
-
-   <section class="about">
-  <div class="about-text">
-    <h1>Quem sou eu?</h1>
-    <p>
-      Meu nome é Henrique Begiato Ambiel, sou game designer formado pela PUC Campinas,
-      técnico em mecatrônica pela FIEC e soldador pelo SENAI.
-      Atualmente estou cursando MBA em ciência de dados pela FM2S Educação e Consultoria
-      com o objetivo de me aprofundar na análise de dados para aprimorar a experiência
-      e tratamento de dados dos meus projetos.
-    </p>
+    <a href="#about" class="hero-button">
+      Conheça meu trabalho
+    </a>
   </div>
+</header>
 
-  <div class="about-image">
-    <img src="Henrique.jpeg" alt="Foto de Henrique Begiato Ambiel" />
-  </div>
-</section>
-  
-  </body>
+<main>
+  <!-- Sobre mim -->
+  <section id="about" class="about">
+    <div class="about-container">
 
-  <footer>
-    <section>
-      <h1>Conheça meus projetos</h1>
-      <div>
-        <a href="https://www.linkedin.com/in/henrique-begiato-ambiel-88707629b/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://henrique-ambiel.itch.io/"><i class="fab fa-itch-io"></i></a>
-        <a href="https://github.com/Henrique-Ambiel"><i class="fab fa-github"></i></a>
-        <a href="https://www.artstation.com/henriqueambiel20"><i class="fab fa-artstation"></i></a>
-        <a href="https://www.behance.net/henrique_begiambiel"><i class="fab fa-behance"></i></a>
-        <a href="https://www.youtube.com/@HatGames-h4m"><i class="fab fa-youtube"></i></a>
-  
+      <!-- Texto -->
+      <div class="about-text">
+        <h2>Sobre mim</h2>
+
+        <p>
+          Meu nome é <b>Henrique Begiato Ambiel</b>, sou <b>Game Designer</b> formado pela PUC Campinas, 
+          <b>Técnico em Mecatrônica</b> pela FIEC e <b>Soldador</b> pelo SENAI. Minha trajetória profissional começou no 
+          chão de fábrica, onde atuei por <b>dois anos e meio</b> nos setores de <b>manutenção, soldagem e produção</b>, desenvolvendo 
+          disciplina, visão técnica e capacidade de resolução de problemas.<br><br>
+
+          Com o objetivo de migrar para a área de tecnologia, conquistei minha primeira oportunidade como <b>Desenvolvedor Web PHP</b>
+          e <b>Analista de TI</b>, função que exerci por <b>um ano</b>. Nesse período, adquiri experiência prática em desenvolvimento 
+          <b>back-end e front-end</b>, além de atuar com <b>infraestrutura de redes, suporte técnico e soluções internas 
+          voltadas à eficiência dos sistemas.</b><br><br>
+          
+
+          Atualmente, <b>sou fundador do estúdio de jogos Hat Games</b>, onde atuei no lançamento do primeiro jogo do estúdio, 
+          unindo criatividade, tecnologia e design de experiências. Paralelamente, trabalho como <b>freelancer em 
+          desenvolvimento web</b> e como <b>professor de tecnologia e inglês</b>, compartilhando conhecimento e incentivando novos 
+          profissionais da área.<br><br>
+
+          Buscando constante evolução, estou cursando um <b>MBA em Ciência de Dados</b> pela FM2S Educação e Consultoria, 
+          com foco em <b>análise e tratamento de dados</b>, visando aprimorar a tomada de decisões e a experiência do usuário 
+          nos projetos que desenvolvo.
+        </p>
+      </div>
+
+      <!-- Imagem -->
+      <div class="about-image">
+        <img src="assets/Henrique.jpeg" alt="Foto de Henrique Begiato Ambiel">
     </div>
+
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <div class="education-container">
+
+      <h2>Formação & Cursos</h2>
+
+      <!-- Graduações -->
+      <div class="education-block">
+        <h3 class="education-subtitle">
+         <i class="fa-solid fa-graduation-cap"></i>
+          Graduações
+        </h3>
+
+        <div id="degrees-list" class="card-list"></div>
+      </div>
+
+      <!-- Cursos -->
+      <div class="education-block">
+        <h3 class="education-subtitle">
+          <i class="fa-solid fa-award"></i>
+          Cursos & Certificações
+        </h3>
+
+        <div id="courses-list" class="card-grid"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+    <!-- Projetos -->
+  <section id="projetos" class="projects-section">
+    <h2>Projetos</h2>
+
+    <div id="projects-grid" class="projects-grid"></div>
+  </section>
+
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <section id="footer" class="footer-section">
+      <h2>Vamos nos conectar!</h2>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/henrique-begiato-ambiel-88707629b/" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://henrique-ambiel.itch.io/" aria-label="Itch.io">
+          <i class="fab fa-itch-io"></i>
+        </a>
+        <a href="https://github.com/Henrique-Ambiel" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.artstation.com/henriqueambiel20" aria-label="ArtStation">
+          <i class="fab fa-artstation"></i>
+        </a>
+        <a href="https://www.behance.net/henrique_begiambiel" aria-label="Behance">
+          <i class="fab fa-behance"></i>
+        </a>
+        <a href="https://www.youtube.com/@HatGames-h4m" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
 
       <p>© 2025 Henrique Begiato Ambiel. Todos os direitos reservados.</p>
     </section>
   </footer>
+
+<script src="script.js"></script>
+
+</body>
 </html>
