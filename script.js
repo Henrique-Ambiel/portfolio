@@ -44,6 +44,12 @@ const courses = [
 //Projetos
 const projects = [
   {
+    title: "Site da Heacher Games",
+    description: "Site profissional de uma startup de jogos da Puc Campinas",
+    tags: ["Javascript", "HTML5", "CSS"],
+    link: "https://heacher-games.vercel.app/"
+  },
+  {
     title: "Site da Hat Games",
     description: "Site profissional do meu estúdio de desenvolvimento de jogos",
     tags: ["Javascript", "HTML5", "CSS"],
