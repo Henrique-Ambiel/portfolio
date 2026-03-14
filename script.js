@@ -67,6 +67,12 @@ const projects = [
     tags: ["Game Design", "Arte Vetorial", "Illustrator"],
     link: "https://hatgames.vercel.app/bugRoyale.html"
   },
+  {
+    title:"Divinus Artis",
+    description: "Site desenvolvido para a galeria de arte online Divinus Artis",
+    tags: ["Wix"],
+    link:"https://www.divinusartis.com/"
+  }
 ];
 
 //Carregar Formação
