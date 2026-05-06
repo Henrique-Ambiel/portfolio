@@ -4,113 +4,220 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Ícones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="assets/Favicon.JPG">
 
-  <title>Meu Portfólio</title>
+  <title>Henrique Begiato Ambiel</title>
   <meta name="description" content="Portfólio profissional com projetos, cursos e experiências">
 </head>
 
 <body>
 
-  <header id="hero" class="hero">
-  <div class="hero-content">
-    <h1>Henrique Begiato Ambiel</h1>
-    <p>Game Designer | Desenvolvedor Web | Técnico em Mecatrônica</p>
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar" class="navbar">
+  <div class="nav-container">
 
-    <a href="#about" class="hero-button">
-      Conheça meu trabalho
+    <!-- Logo com imagem -->
+    <a href="#hero" class="nav-logo">
+      <img src="assets/Favicon.JPG" alt="Foto Henrique">
     </a>
+
+    <!-- Menu desktop -->
+    <div class="nav-links">
+      <a href="#hero">Início</a>
+      <a href="#skills">Skills</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#estudio">Estúdio</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </div>
+
+    <!-- Botão mobile -->
+    <div id="menu-btn" class="menu-btn">☰</div>
+
+  </div>
+
+  <!-- Menu mobile -->
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#hero">Início</a>
+    <a href="#skills">Skills</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#estudio">Estúdio</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header id="hero" class="hero">
+
+  <div class="hero-grid"></div>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+
+  <div class="hero-container">
+
+    <!-- TEXTO -->
+    <div class="hero-content">
+
+      <div class="hero-icons">
+        <i class="fas fa-gamepad"></i>
+        <i class="fas fa-code"></i>
+        <i class="fas fa-palette"></i>
+      </div>
+
+      <h1>
+        Eu construo <br>
+        <span class="highlight">experiências interativas</span>
+      </h1>
+
+      <p>
+        Game Designer, Desenvolvedor Web e Artista.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn-primary">Ver Projetos →</a>
+        <a href="#contato" class="btn-outline">Contato</a>
+      </div>
+    </div>
+
+    <!-- FOTO -->
+    <div class="hero-image">
+      <img src="assets/Henrique.JPG" alt="Foto Henrique">
+    </div>
+
   </div>
 </header>
 
 <main>
-  <!-- Sobre mim -->
-  <section id="about" class="about">
-    <div class="about-container">
 
-      <!-- Texto -->
-      <div class="about-text">
-        <h2>Sobre mim</h2>
+<!-- ===== ABOUT ===== -->
+<section id="about" class="about-new">
+  <div class="section-header">
+    <h2>Minha <span class="highlight">História</span></h2>
+  </div>
 
-        <p>
-          Meu nome é <b>Henrique Begiato Ambiel</b>, sou <b>Game Designer</b> formado pela PUC Campinas, 
-          <b>Técnico em Mecatrônica</b> pela FIEC e <b>Soldador</b> pelo SENAI. Minha trajetória profissional começou no 
-          chão de fábrica, onde atuei por <b>dois anos e meio</b> nos setores de <b>manutenção, soldagem e produção</b>, desenvolvendo 
-          disciplina, visão técnica e capacidade de resolução de problemas.<br><br>
+  <!-- timeline mantida -->
+  <div class="timeline">
+    
+  </div>
+</section>
 
-          Com o objetivo de migrar para a área de tecnologia, conquistei minha primeira oportunidade como <b>Desenvolvedor Web PHP</b>
-          e <b>Analista de TI</b>, função que exerci por <b>um ano</b>. Nesse período, adquiri experiência prática em desenvolvimento 
-          <b>back-end e front-end</b>, além de atuar com <b>infraestrutura de redes, suporte técnico e soluções internas 
-          voltadas à eficiência dos sistemas.</b><br><br>
-          
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="skills-section-new">
+  <div class="section-header">
+    <h2>Minhas <span class="highlight">Skills</span></h2>
+  </div>
 
-          Atualmente, <b>sou fundador do estúdio de jogos Hat Games</b>, onde atuei no lançamento do primeiro jogo do estúdio, 
-          unindo criatividade, tecnologia e design de experiências. Paralelamente, trabalho como <b>freelancer em 
-          desenvolvimento web</b> e como <b>professor de tecnologia e inglês</b>, compartilhando conhecimento e incentivando novos 
-          profissionais da área.<br><br>
+  <div id="skills-container" class="skills-grid"></div>
+</section>
 
-          Buscando constante evolução, estou cursando um <b>MBA em Ciência de Dados</b> pela FM2S Educação e Consultoria, 
-          com foco em <b>análise e tratamento de dados</b>, visando aprimorar a tomada de decisões e a experiência do usuário 
-          nos projetos que desenvolvo.
-        </p>
+<!-- ===== PROJETOS ===== -->
+<section id="projetos" class="projects-new">
+  <div class="section-header">
+    <h2>Meus <span class="highlight">Projetos</span></h2>
+  </div>
+
+  <div id="projects-grid" class="projects-grid-new"></div>
+</section>
+
+<!-- ===== ESTÚDIO ===== -->
+<section id="estudio" class="estudio-new">
+
+  <div class="section-header">
+    <h2>Hat <span class="highlight">Games</span></h2>
+  </div>
+
+  <div class="estudio-container">
+
+    <!-- LADO ESQUERDO (TEXTO) -->
+    <div class="estudio-info">
+
+      <p>
+        Hat Games é minha identidade criativa no mundo dos jogos. Um estúdio indie focado em criar experiências que 
+        conectam, ensinam e transformam experiências em memórias para os jogadores.
+      </p>
+
+      <!-- VISÃO -->
+      <div class="estudio-item">
+        <h4>Visão</h4>
+        <p>Criar experiências que conectam, ensinam e transformam.</p>
       </div>
 
-      <!-- Imagem -->
-      <div class="about-image">
-        <img src="assets/Henrique.JPG" alt="Foto de Henrique Begiato Ambiel">
-    </div>
-
-    </div>
-  </section>
-
-  <section id="education" class="education">
-    <div class="education-container">
-
-      <h2>Formação & Cursos</h2>
-
-      <!-- Graduações -->
-      <div class="education-block">
-        <h3 class="education-subtitle">
-         <i class="fa-solid fa-graduation-cap"></i>
-          Graduações
-        </h3>
-
-        <div id="degrees-list" class="card-list"></div>
+      <!-- PÚBLICO -->
+      <div class="estudio-item">
+        <h4>Público</h4>
+        <p>Jogadores casuais em busca de novas experiências no mundo dos jogos.</p>
       </div>
 
-      <!-- Cursos -->
-      <div class="education-block">
-        <h3 class="education-subtitle">
-          <i class="fa-solid fa-award"></i>
-          Cursos & Certificações
-        </h3>
-
-        <div id="courses-list" class="card-grid"></div>
-      </div>
+      <!-- BOTÃO -->
+      <!--<a href="https://henrique-ambiel.itch.io/" target="_blank" class="btn-primary">
+        Ver Jogos no Itch.io
+      </a>-->
 
     </div>
-  </section>
 
+    <!-- LADO DIREITO (PREVIEW DINÂMICO) -->
+    <div id="studio-preview"></div>
 
-    <!-- Projetos -->
-  <section id="projetos" class="projects-section">
-    <h2>Projetos</h2>
+  </div>
+</section>
 
-    <div id="projects-grid" class="projects-grid"></div>
-  </section>
+<!-- ===== SERVIÇOS ===== -->
+<section id="servicos" class="projects-new">
+  <div class="section-header">
+    <h2>Serviços</h2>
+  </div>
 
+  <div id="services-grid" class="services-grid"></div>
+</section>
 
-  </main>
+</main>
 
-  <!-- Rodapé -->
-  <footer>
-    <section id="footer" class="footer-section">
-      <h2>Vamos nos conectar!</h2>
+<!-- ===== FOOTER / CONTATO ===== -->
+<footer>
+<section id="contato" class="contact-section">
 
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/henrique-begiato-ambiel-88707629b/" aria-label="LinkedIn">
+  <div class="section-header">
+    <h2>Contato</h2>
+  </div>
+
+  <div class="contact-container">
+
+  <!-- LADO ESQUERDO -->
+  <div class="contact-left">
+
+    <h3>Entre em contato</h3>
+
+    <div class="contact-info">
+      <a href="mailto:henriqueambiel@gmail.com" class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <span>Email</span>
+          <p>henriqueambiel@gmail.com</p>
+        </div>
+      </a>
+
+      <a href="https://wa.me/5519962099718" target="_blank" class="contact-card">
+        <i class="fab fa-whatsapp"></i>
+        <div>
+          <span>WhatsApp</span>
+          <p>+55 (19) 996209-9718</p>
+        </div>
+      </a>
+    </div>
+
+    <p class="social-text">Ou me encontre nas redes:</p>
+
+     <!-- SOCIAL ICONS -->
+    <div class="social-icons">
+           <a href="https://www.linkedin.com/in/henrique-begiato-ambiel-88707629b/" aria-label="LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
         <a href="https://henrique-ambiel.itch.io/" aria-label="Itch.io">
@@ -130,11 +237,28 @@
         </a>
       </div>
 
-      <p>© 2025 Henrique Begiato Ambiel. Todos os direitos reservados.</p>
-    </section>
-  </footer>
+  </div>
+
+  <!-- LADO DIREITO -->
+  <div class="contact-form">
+    <div class="form-header">
+      <span class="dot"></span>
+      <p>Vamos Conversar!</p>
+    </div>
+
+    <form id="form-contato">
+      <input type="text" placeholder="Seu nome completo" required>
+      <input type="email" placeholder="seu@email.com" required>
+      <textarea placeholder="Conte sobre seu projeto/interesse..." required></textarea>
+      <button class="btn-primary">Enviar Mensagem</button>
+    </form>
+  </div>
+
+</div>
+
+</section>
+</footer>
 
 <script src="script.js"></script>
-
 </body>
 </html>
