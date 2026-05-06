@@ -195,21 +195,21 @@ const services = [
     title: "Desenvolvimento de Games",
     description: "Criação de jogos 2D e 3D para PC, mobile e web.",
     audience: "Empresas, marcas e projetos pessoais que querem gamificar experiências.",
-    tags: ["Game Design Document", "Prototipagem", "Desenvolvimento Completo", "Publicação"]
+    tags: ["Game Design Document", "Prototipagem", "Desenvolvimento Completo"]
   },
   {
     icon: "fa-code",
     title: "Desenvolvimento Web",
     description: "Sites e aplicações modernas, responsivas e otimizadas.",
     audience: "Startups, pequenas empresas e profissionais que precisam de presença digital.",
-    tags: ["Sites Institucionais", "E-commerce", "Web Apps", "APIs"]
+    tags: ["Landpages", "E-commerce", "Web Apps"]
   },
   {
     icon: "fa-graduation-cap",
     title: "Aulas Particulares",
     description: "Mentoria personalizada em programação, game dev e design.",
     audience: "Iniciantes ou profissionais buscando evolução.",
-    tags: ["Programação", "Game Dev", "Web Dev", "Design"]
+    tags: ["Programação", "Game Dev", "Design"]
   }
 ];
 
