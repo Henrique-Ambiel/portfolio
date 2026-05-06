@@ -401,19 +401,25 @@ function initMenu() {
 }
 
 // ===== FORM =====
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
+function initForm() {
+  const form = document.getElementById("form-contato");
 
-  const nome = form.querySelector('input[name="name"]').value;
-  const email = form.querySelector('input[name="email"]').value;
-  const mensagem = form.querySelector('textarea[name="message"]').value;
+  emailjs.init("SUA_PUBLIC_KEY"); // pega no EmailJS
 
-  const texto = `Nome: ${nome}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  const numero = "5519996209178"; // seu número
-
-  window.open(`https://wa.me/${numero}?text=${texto}`, "_blank");
-});
+    emailjs.sendForm("SERVICE_ID", "TEMPLATE_ID", this)
+      .then(() => {
+        alert("Mensagem enviada com sucesso!");
+        form.reset();
+      })
+      .catch((error) => {
+        console.error("Erro:", error);
+        alert("Erro ao enviar. Tente novamente.");
+      });
+  });
+}
 
 // ===== NOVO: RENDER TIMELINE E HABILIDADES =====
 document.addEventListener("DOMContentLoaded", () => {
