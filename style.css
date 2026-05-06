@@ -4,6 +4,10 @@
   --space-sm: 15px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a, button {
   cursor: pointer;
 }
@@ -254,7 +258,7 @@ html, body {
 .timeline-dot {
   position: absolute;
   top: 20px;
-  right: 5%;
+  right: -3%;
   width: 14px;
   height: 14px;
   background: #00bfff;
@@ -274,6 +278,9 @@ html, body {
   border: 1px solid rgba(255,255,255,0.1);
   backdrop-filter: blur(10px);
   transition: 0.3s;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .timeline-card:hover {
@@ -998,6 +1005,8 @@ html, body {
   border-radius: 999px;
   font-size: 0.8rem;
   margin: 3px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .btn-primary {
