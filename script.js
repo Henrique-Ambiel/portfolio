@@ -2,73 +2,80 @@
 const projects = [
    {
     title: "Site Divinus Artis",
-    description: "Site institucional",
+    description: "Site e-commerce para loja de arte",
     image: "assets/Site Divinus Artis.png",
     tags: ["Wix", "Low Code", "E-commerce"],
     liveUrl: "https://www.divinusartis.com/"
   },
   {
     title: "Site Heacher",
-    description: "Site institucional",
+    description: "Site para startup de jogos",
     image: "assets/Site Heacher Games.png",
     tags: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://heacher-games.vercel.app/"
   },
   {
     title: "Site Qema Design",
-    description: "Site institucional",
+    description: "Site para empresa de design de interiores",
     image: "assets/Site Qema.png",
     tags: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://qema-design-interiores.vercel.app/"
   },
    {
     title: "Site Hat Games",
-    description: "Site institucional",
+    description: "Site estúdio de jogos indie",
     image: "assets/Site Hat Games.png",
     tags: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://hatgames.vercel.app/"
   },
   {
     title: "Bug Royale",
-    description: "Boardgame",
+    description: "Boardgame de battle royale com insetos",
     image: "assets/Bug Royale.png",
     tags: ["Game Design", "Boardgame", "Prototipagem"],
     liveUrl: "https://hatgames.vercel.app/bugRoyale.html"
   },
   {
     title: "Libroom",
-    description: "Mobile Game",
+    description: "Mobile Game de libras com puzzles",
     image: "assets/Libroom.png",
     tags: ["Game Design", "Mobile Game", "UI/UX Design"],
     liveUrl: "https://henrique-ambiel.itch.io/libroom"
   },
   {
     title: "Life Blaster",
-    description: "Multiplayer Game",
+    description: "Multiplayer online com temática de saúde",
     image: "assets/Life Blaster.png",
     tags: ["Game Design", "Multiplayer Game", "Enviroment Art"],
     liveUrl: "https://henrique-ambiel.itch.io/life-blaster"
   },
   {
     title: "Picadas Vorazes",
-    description: "Boardgame",
+    description: "Boardgame integrado com aplicativo",
     image: "assets/Picadas Vorazes.png",
     tags: ["Game Design", "Boardgame", "Vetorial Art"],
     liveUrl: "https://henrique-ambiel.itch.io/picadas-vorazes-aplicativo"
   },
   {
     title: "Bionautica",
-    description: "3D Game",
+    description: "3D Game com temática ambiental",
     image: "assets/Bionautica.png",
     tags: ["Game Design", "3D Game", "3D Modeling"],
     liveUrl: "https://henrique-ambiel.itch.io/bionautica-versao-final"
   },
   {
     title: "Fast Snacks",
-    description: "2D Game",
+    description: "2D Game com temática social",
     image: "assets/Fast Snacks.png",
     tags: ["Game Design", "2D Game", "Pixel Art"],
     liveUrl: "https://henrique-ambiel.itch.io/fast-snacks"
+  },
+  {
+    title: "Chroma",
+    description: "Design gráfico de marca de música",
+    image: "assets/Chroma.png",
+    tags: ["Design Gráfico", "Branding", "Identidade Visual"],
+    liveUrl: "https://www.behance.net/gallery/243038955/Chroma"
   },
 ];
 
@@ -76,19 +83,59 @@ const projects = [
 const timelineData = [
   {
     title: "O Começo da Jornada",
-    description: "Descobri minha paixão por tecnologia e games muito jovem. Comecei a explorar programação e design criando pequenos projetos.",
-    tags: ["Curiosidade", "Experimentação", "Primeiros Códigos"]
+    description: "Comecei na tecnologia pela base: me formei em Mecatrônica. Foi onde aprendi lógica, sistemas e resolução de problemas reais.",
+    tags: ["2020–2021", "Mecatrônica", "Lógica de Programação"]
   },
   {
-    title: "Crescimento Contínuo",
-    description: "Anos de estudo e projetos me transformaram em um profissional multidisciplinar.",
-    tags: ["Web Development", "Game Design", "UI/UX"]
+    title: "Realidade profissional (chão de fábrica)",
+    description: "Minha primeira experiência foi na indústria. Trabalhei com manutenção, solda e produção — aprendendo trabalho em equipe e disciplina.",
+    tags: ["2022–2024", "Indústria", "Trabalho em Equipe"]
   },
   {
-    title: "Momento Atual",
-    description: "Fundador da Hat Games, atuando como dev, designer e professor.",
-    tags: ["Games", "Freelancer", "Ensino"]
-  }
+    title: "Virada (entrada em games)",
+    description: "Foi aí que comecei a construir jogos. Iniciei a graduação em Design de Games e mergulhei no desenvolvimento.",
+    tags: ["2023–2025", "Design de Games", "Desenvolvimento de Jogos"]
+  },
+  {
+    title: "Resultados em games",
+    description: "Desenvolvi 5 jogos acadêmicos. Um deles conquistou 🥈 2º lugar em um hackathon da universidade.",
+    tags: ["2023–2025", "Design de Games", "Desenvolvimento de Jogos"]
+  },
+  {
+    title: "Expansão criativa (empreendedorismo)",
+    description: "Também atuei como gerente de uma marca musical. Com destaque para o trabalho em branding, produção gráfica e gestão criativa.",
+    tags: ["2024", "Design Gráfico", "Branding"]
+  },
+  {
+    title: "Entrada no mercado de tecnologia",
+    description: "Dei o próximo passo: atuação profissional em TI. Trabalhei como analista de infraestrutura e depois desenvolvedor PHP.",
+    tags: ["2024-2025", "Desenvolvimento Web", "Suporte Técnico"]
+  },
+  {
+    title: "Desenvolvimento avançado",
+    description: "Atuei com sistemas reais e complexos. Envolvendo frameworks, automatização de processos, versionamento e arquitetura de sistemas.",
+    tags: ["2024-2025", "PHP/Laravel", "Playwright"]
+  },
+  {
+    title: "Freelancer & sistemas",
+    description: "Também atuei como desenvolvedor freelancer. Criei um e-commerce digital com ferramentas low-code.",
+    tags: ["2026", "Wix", "Arquitetura de Sistemas"]
+  },
+  {
+    title: "Hoje (momento atual)",
+    description: "Hoje atuo como professor e desenvolvedor. Ensino tecnologia, desenvolvimento de games e inglês.",
+    tags: ["2025 - Atualmente", "Ensino", "Desenvolvimento"]
+  },
+  {
+    title: "Evolução contínua",
+    description: "Estou em constante evolução. Atualmente cursando MBA em Ciência de Dados para entender a manipulação de dados e como aplica-la.",
+    tags: ["2025 - Atualmente", "Ciência de Dados", "Estudo"]
+  },
+  {
+    title: "Projeto pessoal (futuro)",
+    description: "Também desenvolvo meus próprios jogos. Fundador do meu estúdio e focado em projetos autorais, tendo já um publicado e outros em desenvolvimentio.",
+    tags: ["2025 - Atualmente", "Hat Games", "Desenvolvimento de Games"]
+  },
 ];
 
 // ===== SKILLS =====
@@ -335,7 +382,7 @@ function renderServices() {
       </div>
 
       <a href="#contato" class="btn-outline service-btn">
-        Solicitar Orçamento →
+        Contato →
       </a>
     `;
 
