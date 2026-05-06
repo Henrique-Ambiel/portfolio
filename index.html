@@ -237,7 +237,6 @@
           <i class="fab fa-youtube"></i>
         </a>
       </div>
-
   </div>
 
   <!-- LADO DIREITO -->
@@ -248,18 +247,20 @@
     </div>
 
     <form id="form-contato">
-      <input type="text" placeholder="Seu nome completo" required>
-      <input type="email" placeholder="seu@email.com" required>
-      <textarea placeholder="Conte sobre seu projeto/interesse..." required></textarea>
+      <input type="text" name="name" placeholder="Seu nome completo" required>
+      <input type="email" name="email" placeholder="seu@email.com" required>
+      <textarea name="message" placeholder="Conte sobre seu projeto/interesse..." required></textarea>
       <button class="btn-primary">Enviar Mensagem</button>
     </form>
   </div>
 
 </div>
 
+<p id="copyright">2026 &copy; Todos os direitos reservados. Henrique Begiato Ambiel</p>
 </section>
 </footer>
 
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </body>
 </html>

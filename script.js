@@ -404,9 +404,20 @@ function initMenu() {
 function initForm() {
   const form = document.getElementById("form-contato");
 
-  form.addEventListener("submit", (e) => {
+  emailjs.init("SUA_PUBLIC_KEY"); // pega no EmailJS
+
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("Mensagem enviada!");
+
+    emailjs.sendForm("SERVICE_ID", "TEMPLATE_ID", this)
+      .then(() => {
+        alert("Mensagem enviada com sucesso!");
+        form.reset();
+      })
+      .catch((error) => {
+        console.error("Erro:", error);
+        alert("Erro ao enviar. Tente novamente.");
+      });
   });
 }
 

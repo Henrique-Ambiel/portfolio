@@ -8,9 +8,12 @@ a, button {
   cursor: pointer;
 }
 
-body {
+html, body {
+  margin: 0;
+  padding: 0;
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .section-grid {
@@ -726,6 +729,13 @@ body {
 }
 
 /* ===== CONTACT/FOOTER ===== */
+#copyright {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
 .contact-section {
   padding: 6rem 1rem;
   background: #0d1b2a;
