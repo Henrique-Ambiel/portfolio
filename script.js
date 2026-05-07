@@ -8,7 +8,7 @@ const projects = [
     liveUrl: "https://www.divinusartis.com/"
   },
   {
-    title: "Site Heacher",
+    title: "Site Heacher Games",
     description: "Site para startup de jogos",
     image: "assets/Site Heacher Games.png",
     tags: ["HTML", "CSS", "JavaScript"],
