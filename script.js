@@ -83,17 +83,17 @@ const projects = [
 const timelineData = [
   {
     title: "O Começo da Jornada",
-    description: "Comecei na tecnologia pela base: me formei em Mecatrônica. Foi onde aprendi lógica, sistemas e resolução de problemas reais.",
+    description: "Comecei na tecnologia pela base: me formei em Mecatrônica na FIEC (Indaiatuba). Foi onde aprendi lógica, sistemas e resolução de problemas reais.",
     tags: ["2020–2021", "Mecatrônica", "Lógica de Programação"]
   },
   {
     title: "Realidade profissional (chão de fábrica)",
-    description: "Minha primeira experiência foi na indústria. Trabalhei com manutenção, solda e produção — aprendendo trabalho em equipe e disciplina.",
+    description: "Minha primeira experiência foi na indústria. Trabalhei com manutenção (Doptex), solda (John Deere) e produção (Quickshot) — aprendendo trabalho em equipe e disciplina.",
     tags: ["2022–2024", "Indústria", "Trabalho em Equipe"]
   },
   {
     title: "Virada (entrada em games)",
-    description: "Foi aí que comecei a construir jogos. Iniciei a graduação em Design de Games e mergulhei no desenvolvimento.",
+    description: "Foi aí que comecei a construir jogos. Iniciei a graduação em Design de Games pela PUC Campinas e mergulhei no desenvolvimento.",
     tags: ["2023–2025", "Design de Games", "Desenvolvimento de Jogos"]
   },
   {
@@ -103,32 +103,37 @@ const timelineData = [
   },
   {
     title: "Expansão criativa (empreendedorismo)",
-    description: "Também atuei como gerente de uma marca musical. Com destaque para o trabalho em branding, produção gráfica e gestão criativa.",
+    description: "Também atuei como gerente de uma marca musical, a Chroma. Com destaque para o trabalho em branding, produção gráfica e gestão criativa.",
     tags: ["2024", "Design Gráfico", "Branding"]
   },
   {
     title: "Entrada no mercado de tecnologia",
-    description: "Dei o próximo passo: atuação profissional em TI. Trabalhei como analista de infraestrutura e depois desenvolvedor PHP.",
+    description: "Dei o próximo passo: atuação profissional em TI. Trabalhei como analista de infraestrutura e depois desenvolvedor PHP (CTIC Capital).",
     tags: ["2024-2025", "Desenvolvimento Web", "Suporte Técnico"]
   },
   {
     title: "Desenvolvimento avançado",
-    description: "Atuei com sistemas reais e complexos. Envolvendo frameworks, automatização de processos, versionamento e arquitetura de sistemas.",
+    description: "Atuei com sistemas reais e complexos. Envolvendo frameworks (Laravel, Filament e Livewire), automatização de processos (Playwright), versionamento (Git e Github) e arquitetura de sistemas (lista de leeds e plataforma digital de consórcio).",
     tags: ["2024-2025", "PHP/Laravel", "Playwright"]
   },
   {
     title: "Freelancer & sistemas",
-    description: "Também atuei como desenvolvedor freelancer. Criei um e-commerce digital com ferramentas low-code.",
+    description: "Também atuei como desenvolvedor freelancer. Criei um e-commerce digital de arte com a ferramenta low-code Wix.",
     tags: ["2026", "Wix", "Arquitetura de Sistemas"]
   },
   {
+    title: "Trabalho voluntário",
+    description: "Realizei um trabalho voluntário em um estúdio indie de games durante 1 mês. Atuei como Game Designer e Game Director, realizando a documentação, prototipação do projeto e gestão do grupo.",
+    tags: ["2026", "Godot", "Documentação e Gestão"]
+  },
+  {
     title: "Hoje (momento atual)",
-    description: "Hoje atuo como professor e desenvolvedor. Ensino tecnologia, desenvolvimento de games e inglês.",
+    description: "Atualmente, sou professor e desenvolvedor Web/Unity. Na Microcamp, ensino tecnologia, desenvolvimento de games e inglês, além de realizar treinamentos para profissionais. Na Universal Lab, atuo como desenvolvedor Unity, focado na criação de mecânicas e desenvolvimento de jogos.",
     tags: ["2025 - Atualmente", "Ensino", "Desenvolvimento"]
   },
   {
     title: "Evolução contínua",
-    description: "Estou em constante evolução. Atualmente cursando MBA em Ciência de Dados para entender a manipulação de dados e como aplica-la.",
+    description: "Estou em constante evolução. Atualmente cursando MBA em Ciência de Dados na FM2S para entender a manipulação de dados e como aplica-la.",
     tags: ["2025 - Atualmente", "Ciência de Dados", "Estudo"]
   },
   {
