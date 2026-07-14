@@ -1,5 +1,12 @@
 // ===== DADOS DOS PROJETOS =====
 const projects = [
+  {
+    title: "Além dos Olhos",
+    description: "Jogo de impacto e folclore brasileiro",
+    image: "assets/ALÉM DOS OLHOS.png",
+    tags: ["Unity", "C#", "Tech Artist"],
+    liveUrl: "https://henrique-ambiel.itch.io/alem-dos-olhos"
+  },
    {
     title: "Site Divinus Artis",
     description: "Site e-commerce para loja de arte",
