@@ -1,6 +1,13 @@
 // ===== DADOS DOS PROJETOS =====
 const projects = [
   {
+    title: "Dungeon Security",
+    description: "Jogo de lógica e confiança com temática medieval",
+    image: "assets/Dungeon.png",
+    tags: ["Godot", "GDscript", "Programação de Jogos"],
+    liveUrl: "https://gamedevmeetup.itch.io/dungeon-security"
+  },
+  {
     title: "Além dos Olhos",
     description: "Jogo de impacto e folclore brasileiro",
     image: "assets/ALÉM DOS OLHOS.png",
@@ -64,6 +71,13 @@ const projects = [
     liveUrl: "https://henrique-ambiel.itch.io/picadas-vorazes-aplicativo"
   },
   {
+    title: "Chroma",
+    description: "Design gráfico de marca de música",
+    image: "assets/Chroma.png",
+    tags: ["Design Gráfico", "Branding", "Identidade Visual"],
+    liveUrl: "https://www.behance.net/gallery/243038955/Chroma"
+  },
+  {
     title: "Bionautica",
     description: "3D Game com temática ambiental",
     image: "assets/Bionautica.png",
@@ -76,13 +90,6 @@ const projects = [
     image: "assets/Fast Snacks.png",
     tags: ["Game Design", "2D Game", "Pixel Art"],
     liveUrl: "https://henrique-ambiel.itch.io/fast-snacks"
-  },
-  {
-    title: "Chroma",
-    description: "Design gráfico de marca de música",
-    image: "assets/Chroma.png",
-    tags: ["Design Gráfico", "Branding", "Identidade Visual"],
-    liveUrl: "https://www.behance.net/gallery/243038955/Chroma"
   },
 ];
 
