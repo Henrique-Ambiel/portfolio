@@ -1,6 +1,13 @@
 // ===== DADOS DOS PROJETOS =====
 const projects = [
   {
+    title: "Glow of the Embertail",
+    description: "Jogo arcade de plataforma com speedrun e 3D lateral",
+    image: "assets/GotE.png",
+    tags: ["Gestão de projetos", "Unity", "Game Design"],
+    liveUrl: "https://henrique-ambiel.itch.io/glow-of-the-embertail"
+  },
+  {
     title: "Dungeon Security",
     description: "Jogo de lógica e confiança com temática medieval",
     image: "assets/Dungeon.png",
