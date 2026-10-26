@@ -1,6 +1,13 @@
 // ===== DADOS DOS PROJETOS =====
 const projects = [
   {
+    title: "Politicagê!",
+    description: "Jogo politico digital com temática de eleições e democracia",
+    image: "assets/Politicage.png",
+    tags: ["C#", "Unity", "Game Design"],
+    liveUrl: "https://henrique-ambiel.itch.io/glow-of-the-embertail"
+  },
+  {
     title: "Glow of the Embertail",
     description: "Jogo arcade de plataforma com speedrun e 3D lateral",
     image: "assets/GotE.png",
@@ -208,7 +215,7 @@ const studioData = {
   image: "assets/Hat Games.jpg",
   url: "https://hatgames.vercel.app/",
   stats: [
-    { value: "1", label: "Jogos" },
+    { value: "2", label: "Jogos" },
     { value: "40+", label: "Jogadores" },
     { value: "2+", label: "Jogos em produção" }
   ]
